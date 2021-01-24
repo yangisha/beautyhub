@@ -1,0 +1,202 @@
+body{
+	background-color: #fff;
+	margin:0;
+}
+
+.hero-section{
+	background-image: url("../images/BlossomBrows.png");
+	height:500px;
+	width:auto;
+	background-position: center;
+}
+.header-button{
+	margin-top:25%;
+}
+/* .header-button{
+
+	margin-top: 25%;
+} */
+h2 {
+	color:#B6967D;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	position: relative;
+	margin: 30px 0 60px;
+}
+h2::after {
+	content: "";
+	width: 100px;
+	position: absolute;
+	margin: 0 auto;
+	height: 3px;
+	background: #F8D8C8;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+}
+.col-center {
+	margin: 0 auto;
+	float: none !important;
+}
+.carousel {
+	padding: 0 70px;
+}
+.carousel .carousel-item {
+	color: #999;
+	font-size: 14px;
+	text-align: center;
+	overflow: hidden;
+	min-height: 290px;
+}
+.carousel .carousel-item .img-box {
+	width: 135px;
+	height: 135px;
+	margin: 0 auto;
+	padding: 5px;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+}
+.carousel .img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+.carousel .testimonial {
+	padding: 30px 0 10px;
+}
+.carousel .overview {	
+	font-style: italic;
+}
+.carousel .overview b {
+	text-transform: uppercase;
+	color: #7AA641;
+}
+.carousel-control-prev, .carousel-control-next {
+	width: 40px;
+	height: 40px;
+	margin-top: -20px;
+	top: 50%;
+	background: none;
+}
+.carousel-control-prev i, .carousel-control-next i {
+	font-size: 68px;
+	line-height: 42px;
+	position: absolute;
+	display: inline-block;
+	color: rgba(0, 0, 0, 0.8);
+	text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+}
+.carousel-indicators {
+	bottom: -40px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 12px;
+	height: 12px;
+	margin: 1px 3px;
+	border-radius: 50%;
+	border: none;
+}
+.carousel-indicators li {	
+	background: #999;
+	border-color: transparent;
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+.carousel-indicators li.active {	
+	background: #555;		
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+/* .header-image{
+   /* background-image:url('images/sliderimage.jpg') 
+
+
+.card-group{
+    margin-top: 120px;
+    /* padding:20px; */
+
+	   
+.sign-in-button{
+	text-align:center;
+	padding:5px;
+	}
+#about{
+    text-align:center;
+    margin-top: 150px;
+}
+
+.about-us-image col-md-4 {
+    margin-top: 34px;
+    padding-top: 10px;
+
+}
+.about-us-info {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+#services{
+    text-align:center;
+    margin-top: 10px;
+}
+#Testimonials{
+    text-align:center;
+    margin-top: 10px;
+   
+}
+.d-block{
+height:250px;
+width:250px;
+
+}
+
+.controls{
+    opacity:0.1;
+}
+
+
+/* .booking-form form{
+    border-radius:3px;
+    border-color: black;
+    align-items: ;
+  
+} */
+/* .testimonial-card{
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+} */
+/* .testimonials-card{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+} */
+/* .card-group row mt-4 {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+} */
+
+
+
+.system-initialization-form{
+	background-color:#f5f5ee;
+}
+.sign-in{
+	justify-content: center;
+}
+
+.login{
+	background-color:#f5f5ee;
+}
+.Submit{
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+.login-facebook,.login-gmail{
+	padding-top: 2px;
+}
