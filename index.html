@@ -10,15 +10,21 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700|Open+Sans">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    
+
+
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <section id='header'>
+    <section class="container-fluid" id='header'>
         <div class="row">
-            <div class="col-12 px-0">
+            <div class="col-12  px-0">
                 <nav class="navbar navbar-expand-lg navbar-light ">
-                    <a class="navbar-brand" href="#">Beauty Hub</a>
+                    <a class="navbar-brand" href="#">
+                       <b>Beauty</b>Hub
+                    </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -26,110 +32,100 @@
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item active ">
-                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About Us</a>
+                                <a class="nav-link" href="#about mt-1">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Services</a>
+                                <a class="nav-link" href="service.html">Services</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Book Online</a>
+                                <a class="nav-link" href="#booking">Book Online</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Log In/Register</a>
+                                <a class="nav-link" href="login.html">Log In/Register</a>
                             </li>
                         </ul>
                     </div>
                 </nav>
-                <div class="header-image text-center  hero-section">
+                <div class="header-image hero-section">
+                    <div class="header-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
                     <!-- <img src="./images/BlossomBrows.png" alt="" srcset=""> -->
                     <!-- <img src="./images/sliderimage.jpg" class="d-block w-100" alt="" srcset=""> -->
-                    <button type="button" class="btn btn-info  header-button " >  Book Online</button>
-         
-                  
-                     <!-- src=  class="d-block w-100"alt=""> -->
+                    <div class="book-online-btn">
+                        <button type="button" class="btn px-5  pt-3 pb-3 header-button "> <a id="book-tag"
+                                href="#booking"> Book Now
+                            </a> </button>
+                    </div>
+
+
+
+                    <!-- src=  class="d-block w-100"alt=""> -->
                 </div>
 
             </div>
         </div>
     </section>
 
-    <section id="about">
-        <div class="container">
-            <h2>ABOUT US</h2>
-            <div class="row">
+    <section id="about mt-1">
+        <div class="container px-5 mt-5 ">
+            <h2 class="mr-auto mb-4">ABOUT</h2>
 
-                <div class=" about-us-image col-md-4 mt-5">
-                    <img src="images/Image.png" alt="" srcset="">
+            <div class="row color:#F7C3B8">
+                <div class=" about-us-image col-4">
                 </div>
-                <div class=" about-us-info col-md-8 mt-5 ">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo quam quaerat et accusantium,
-                        mollitia aperiam dolorem ipsum tenetur? Ea facilis earum mollitia adipisci qui repellat
-                        molestias ut accusamus vel delectus?
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo quam quaerat et accusantium,
-                        mollitia aperiam dolorem ipsum tenetur? Ea facilis earum mollitia adipisci qui repellat
-                        molestias ut accusamus vel delectus?
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo quam quaerat et accusantium,
-                        mollitia aperiam dolorem ipsum tenetur? Ea facilis earum mollitia adipisci qui repellat
-                        molestias ut accusamus vel delectus?
+                <div class=" about-us-info col-lg-7 col-md-7 col-sm-7 col-7 d-flex text-left ml-5">
+                    <!-- <h3 class="text-white">ABOUT</h3> -->
+                    <!-- <h2 class="mr-auto mb-4">ABOUT</h2> -->
+                    <p class="about-us-info text-justify ">
+                        Culpa officia sint reprehenderit commodo veniam tempor Lorem. Sunt veniam magna cillum eiusmod irure. Veniam ea esse ipsum sunt eu sunt sint irure elit velit. Fugiat in occaecat amet aliqua quis officia do ipsum eu. Cillum cillum elit ullamco minim cupidatat ea consectetur aliquip dolore deserunt ex. Aliqua duis laborum in ipsum et enim id labore quis irure. Occaecat sit laborum minim aliqua do commodo consequat tempor voluptate laborum eiusmod enim magna. Esse duis consequat ullamco culpa tempor ea duis. Id deserunt voluptate sunt officia veniam tempor incididunt. Lorem dolore labore eiusmod duis voluptate pariatur duis adipisicing. Eiusmod consectetur aliqua ad quis ut culpa aute qui id deserunt elit irure reprehenderit. Sint anim commodo consequat nulla elit amet ullamco nulla quis.s
                     </p>
                 </div>
-
-
-
-
             </div>
         </div>
 
 
     </section>
-    <section id='services'>
+    <section id='services' class="mt-5">
         <h2>SERVICES</h2>
         <div class="container">
             <div class="row">
-                <div class="card-group row mt-4">
+                <div class="card-group mx-auto">
                     <div class="col-4">
                         <div class="card">
-                            <img src="https://s3-alpha-sig.figma.com/img/c54c/d2cc/189137417d93c940f6435617cfc5ade5?Expires=1612137600&Signature=Mccoq2JeZ0-Wsmv52aTZ9AS-fOeprL8tfbBgPm-NuRIcvBbI4EMhcaahAF3kZfJYcLcHbXU7C~7qI-pOifyN1QPIW-bLa8ZVIVkJEhrHLcQbss7hae9ECUdc23mu6t~z-JFR~LJd~67n28S1HW25OyBNGPzEfRqAwWeIj40~13M1FUIi1eMyc0kk3x18ooN4S~DC8sdP3IJ8suXnKei7pzm5~nWHNX7Pr4kQtxuM47-l9G5Ka4dzctHJMgkKZmO1ELXstbYUUhKhL6s6PIBMOEaX7QlWGFQGexs~O0kuG1a3uQclvLrT-~B5geGImi25I7DCyYvXx1nfvcN0gbw~3A__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <img src="./images/facial.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body text-left">
+                                <h5 class="card-title">Fruits Facial</h5>
+                                <p class="card-text service-category">Facial </p>
+                                <p class="card-text">$300</p>
+                                <button class="service-booking-btn">Book Now</button>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-4">
                         <div class="card">
-                            <img src="https://s3-alpha-sig.figma.com/img/c54c/d2cc/189137417d93c940f6435617cfc5ade5?Expires=1612137600&Signature=Mccoq2JeZ0-Wsmv52aTZ9AS-fOeprL8tfbBgPm-NuRIcvBbI4EMhcaahAF3kZfJYcLcHbXU7C~7qI-pOifyN1QPIW-bLa8ZVIVkJEhrHLcQbss7hae9ECUdc23mu6t~z-JFR~LJd~67n28S1HW25OyBNGPzEfRqAwWeIj40~13M1FUIi1eMyc0kk3x18ooN4S~DC8sdP3IJ8suXnKei7pzm5~nWHNX7Pr4kQtxuM47-l9G5Ka4dzctHJMgkKZmO1ELXstbYUUhKhL6s6PIBMOEaX7QlWGFQGexs~O0kuG1a3uQclvLrT-~B5geGImi25I7DCyYvXx1nfvcN0gbw~3A__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <img src="./images/facial.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body text-left">
+                                <h5 class="card-title">Fruits Facial</h5>
+                                <p class="card-text service-category">Facial </p>
+                                <p class="card-text">$300</p>
+                                <button class="service-booking-btn">Book Now</button>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-4">
                         <div class="card">
-                            <img src="https://s3-alpha-sig.figma.com/img/c54c/d2cc/189137417d93c940f6435617cfc5ade5?Expires=1612137600&Signature=Mccoq2JeZ0-Wsmv52aTZ9AS-fOeprL8tfbBgPm-NuRIcvBbI4EMhcaahAF3kZfJYcLcHbXU7C~7qI-pOifyN1QPIW-bLa8ZVIVkJEhrHLcQbss7hae9ECUdc23mu6t~z-JFR~LJd~67n28S1HW25OyBNGPzEfRqAwWeIj40~13M1FUIi1eMyc0kk3x18ooN4S~DC8sdP3IJ8suXnKei7pzm5~nWHNX7Pr4kQtxuM47-l9G5Ka4dzctHJMgkKZmO1ELXstbYUUhKhL6s6PIBMOEaX7QlWGFQGexs~O0kuG1a3uQclvLrT-~B5geGImi25I7DCyYvXx1nfvcN0gbw~3A__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <img src="./images/facial.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body text-left">
+                                <h5 class="card-title">Fruits Facial</h5>
+                                <p class="card-text service-category">Facial </p>
+                                <p class="card-text">$300</p>
+                                <button class="service-booking-btn">Book Now</button>
                             </div>
                         </div>
                     </div>
@@ -138,152 +134,220 @@
                 </div>
 
 
-
             </div>
-        </div>
-    </section>
 
-    <section id="Testimonials">
-        <div class="container">
-            <!-- <h1>  Testimonials</h1> -->
-            <div class="row">
-
-                <div class="container-xl mb-5">
-                    <div class="row">
-                        <div class="col-lg-8 mx-auto">
-                            <h2>Testimonials</h2>
-                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                                <!-- Carousel indicators -->
-                                <ol class="carousel-indicators">
-                                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                                </ol>
-                                <!-- Wrapper for carousel items -->
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <div class="img-box"><img src="images/clients/1.jpeg" alt=""></div>
-                                        <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                            Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus
-                                            nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non
-                                            purus. Suspendisse varius nibh non aliquet.</p>
-                                        <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="img-box"><img src="images/clients/2.jpg" alt=""></div>
-                                        <p class="testimonial">Vestibulum quis quam ut magna consequat faucibus.
-                                            Pellentesque eget nisi a mi suscipit tincidunt. Utmtc tempus dictum risus.
-                                            Pellentesque viverra sagittis quam at mattis. Suspendisse potenti. Aliquam
-                                            sit amet gravida nibh, facilisis gravida odio.</p>
-                                        <p class="overview"><b>Antonio Moreno</b>, Web Developer</p>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="img-box"><img src="images/clients/3.jpeg" alt=""></div>
-                                        <p class="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat
-                                            ante id lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus turpis
-                                            at accumsan tincidunt. Phasellus risus risus, volutpat vel tellus ac,
-                                            tincidunt fringilla massa. Etiam hendrerit dolor eget rutrum.</p>
-                                        <p class="overview"><b>Michael Holz</b>, Seo Analyst</p>
-                                    </div>
-                                </div>
-                                Carousel controls
-                                <a class="carousel-control-prev controls" href="#myCarousel" data-slide="prev">
-                                    <i class="fa fa-angle-left"></i>
-                                </a>
-                                <a class="carousel-control-next controls" href="#myCarousel" data-slide="next">
-                                    <i class="fa fa-angle-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <button class=" view-all  btn-dark rounded-pill mt-4 border-0  text-center"> <a href="service.html"></a> View All </button>
         </div>
     </section>
 
 
 
-    <section id="Book-your-appointment">
-        <div class="container">
+
+    <section id="booking" class="mt-5 mb-5 p-auto">
+        <div class="container appointment">
             <h2> Book your Appointment</h2>
-            <div class="row">
-                <form class="row g-3">
-                  <div class="col-6">
-                    <label for="inputAddress2" class="form-label">Service Category</label>
-                    <select class="custom-select">
-                        <option selected>Select Category</option>
-                        <option value="1">Facial</option>
-                        <option value="2">Threading</option>
-                        <option value="3">Waxing</option>
-                      </select>
-<!--                       
-                    <input type="text" class="form-control" id="inputAddress2" >
-                    <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-                        <option selected>Service Category</option>
-                        <option value="1">Waxing</option>
-                        <option value="2">Threading</option>
-                        <option value="3">Facial</option>
-                      </select> -->
-                    <!-- <select class="form-select form-select-lg " aria-label=".form-select-lg ">
-                        <option selected>Select Category</option>
-                        <option value="1">Facial</option>
-                        <option value="2">Threading</option>
-                        <option value="3">Waxing</option>
+            <div class="appointment-form col-8 w-auto mx-auto">
+                <form class="row mx-auto p-auto">
+                    <div class="col-12">
+                        <label for="inputAddress2" class="form-label">Branch Location</label>
+                        <select class="custom-select booking-input">
+                            <option selected>Select Location</option>
+                            <option value="1">Jhamsikhel</option>
+                            <option value="2">Baneswor</option>
+                            <option value="3">Buddhanagar</option>
+                        </select>
+                        <!-- <input type="text" class="form-control booking-input " id="inputAddress2"> -->
 
-                      </select> -->
-                  </div>
-              
-                      <div class="col-6">
+                    </div>
+
+                    <div class="col-6">
+                        <label for="inputAddress2" class="form-label">Service Category</label>
+                        <select class="custom-select booking-input">
+                            <option selected>Select Category</option>
+                            <option value="1">Facial</option>
+                            <option value="2">Threading</option>
+                            <option value="3">Waxing</option>
+                        </select>
+                    </div>
+
+                    <div class="col-6">
                         <label for="inputAddress2" class="form-label">Service Details</label>
-                        <input type="text" class="form-control" id="inputAddress2" >
-                      
-                      </div>
+                        <input type="text" class="form-control booking-input " id="inputAddress2">
 
-                      <div class="col-6">
+                    </div>
+
+                    <div class="col-6">
                         <label for="inputAddress" class="form-label">Date/Time</label>
-                        <input type="text" class="form-control" id="inputAddress" >
-                      </div>
-                      <div class="col-6">
+                        <input type="text" class="form-control booking-input" id="inputAddress">
+                    </div>
+                    <div class="col-6">
                         <label for="inputAddress2" class="form-label">Appointments Timings</label>
-                        <input type="text" class="form-control" id="inputAddress2" >
-                      </div>
+                        <select class="custom-select booking-input">
+                            <option selected></option>
+                            <option value="1">12:30</option>
+                            <option value="2">1:30</option>
+                            <option value="3">2:00</option>
+                            <option value="4">2:30</option>
+                        </select>
+
+                    </div>
                     <div class="col-md-12">
                         <h3>Personal Information</h3>
                     </div>
 
                     <div class="col-md-6">
-                      <label for="inputEmail4" class="form-label">Full name</label>
-                      <input type="text" class="form-control" id="inputFullName">
+                        <label for="inputEmail4" class="form-label">First name</label>
+                        <input type="text" class="form-control  booking-input" id="inputFirstName">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Last name</label>
+                        <input type="text" class="form-control  booking-input" id="inputLastName">
                     </div>
                     <div class="col-md-6">
                         <label for="inputEmail4" class="form-label">Phone number</label>
-                        <input type="number" class="form-control" id="inputPhoneNumber">
-                      </div>
-                    
-                    
-                    <div class="col-md-4">
-                      <label for="inputState" class="form-label">Email</label>
-                      <input type="email" class="form-control" id="inputEmail4">
+                        <input type="number" class="form-control  booking-input" id="inputPhoneNumber">
                     </div>
-                    <div class="col-12">
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck">
-                        <label class="form-check-label" for="gridCheck">
-                         Remember Me 
-                        </label>
-                      </div>
+
+
+                    <div class="col-md-6">
+                        <label for="inputState" class="form-label">Email</label>
+                        <input type="email" class="form-control  booking-input" id="inputEmail4">
                     </div>
-                    <div class="col-12">
-                      <button type="submit" class="btn btn-primary">Sign in</button>
+                    <div class="col-md-12 pt-4">
+                        <label for="inputState" class="form-label">Message</label>
+                        <!-- <input type='text' class="form-control  booking-input" id=""> -->
+                        <textarea name="" id="inputState" cols="70" rows="3"></textarea>
                     </div>
-                  </form>
+                    <div class="col-12 ">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                Remember Me
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-md-12 text-center">
+                        <button type="submit" class=" Confirm btn btn-dark rounded-pill w-50 ">Confirm</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="our-branch-location" class="mt-5 mb-5">
+
+        <div class="container">
+            <h2>Our Branch Location</h2>
+            <div class="row">
+
+                <div class="col-4">
+                    <div class="card shadow-sm" style="width: 20rem;">
+                        <div class="card-body">
+
+                            <h6 class="card-title">
+                                <i class="fas fa-map-marked-alt"></i> 467 5th Ave., Brooklyn, NY 11215
+                            </h6>
+
+                            <h6 class="card-title"><i class="fas fa-phone-volume"></i>
+                                +17184992233
+                            </h6>
+                            <h6 class="card-title"> <i class="far fa-envelope"></i> beautyhub1@gmail.com</h6>
+
+                        </div>
+                    </div>
                 </div>
+                <div class="col-4">
+                    <div class="card shadow-sm" style="width: 20rem;">
+                        <div class="card-body">
+
+                            <h6 class="card-title">
+                                <i class="fas fa-map-marked-alt"></i> 467 5th Ave., Brooklyn, NY 11215
+                            </h6>
+
+                            <h6 class="card-title"> <i class="fas fa-phone-volume"></i>
+                                +17184992233
+                            </h6>
+                            <h6 class="card-title"><i class="far fa-envelope"></i> beautyhub1@gmail.com</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card shadow-sm" style="width: 20rem;">
+                        <div class="card-body">
+
+
+                            <h6 class="card-title">
+                                <i class="fas fa-map-marked-alt"></i> 467 5th Ave., Brooklyn, NY 11215
+                            </h6>
+
+                            <h6 class="card-title"><i class="fas fa-phone-volume"></i>
+                                +17184992233
+                            </h6>
+                            <h6 class="card-title"><i class="far fa-envelope"></i> beautyhub1@gmail.com</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4 mt-4">
+                    <div class="card shadow-sm" style="width: 20rem;">
+                        <div class="card-body">
+
+                            <h6 class="card-title">
+                                <i class="fas fa-map-marked-alt"></i> 467 5th Ave., Brooklyn, NY 11215
+                            </h6>
+
+                            <h6 class="card-title"><i class="fas fa-phone-volume"></i>
+                                +17184992233
+                            </h6>
+                            <h6 class="card-title"> <i class="far fa-envelope"></i> beautyhub1@gmail.com</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 mt-4">
+                    <div class="card shadow-sm" style="width: 20rem;">
+                        <div class="card-body">
+
+                            <h6 class="card-title">
+                                <i class="fas fa-map-marked-alt"></i> 467 5th Ave., Brooklyn, NY 11215
+                            </h6>
+
+                            <h6 class="card-title"><i class="fas fa-phone-volume"></i>
+                                +17184992233
+                            </h6>
+                            <h6 class="card-title"> <i class="far fa-envelope"></i> beautyhub1@gmail.com</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 mt-4">
+                    <div class="card shadow-sm" style="width: 20rem;">
+                        <div class="card-body">
+
+                            <h6 class="card-title">
+                                <i class="fas fa-map-marked-alt"></i> 467 5th Ave., Brooklyn, NY 11215
+                            </h6>
+
+                            <h6 class="card-title"><i class="fas fa-phone-volume"></i>
+                                +17184992233
+                            </h6>
+                            <h6 class="card-title"><i class="far fa-envelope"></i> beautyhub1@gmail.com</h6>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
             </div>
         </div>
     </section>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-</body> 
+</body>
 
 </html>
